@@ -20,6 +20,7 @@ def first_challenge
       contacts.each do |attribute, thing|
         if attribute == :favorite_icecream_flavors
           puts thing
+          puts attribute
           thing.delete("strawberry")
           attribute
         end
