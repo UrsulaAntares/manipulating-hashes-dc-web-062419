@@ -8,7 +8,7 @@ def second_challenge
 
   #code your solution here!
   all_dem_ingredients = []
-  groceries.values.each << all_dem_ingredients 
+  all_dem_ingredients << groceries.values.each
   
   all_dem_ingredients
 end
