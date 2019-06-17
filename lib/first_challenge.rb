@@ -22,7 +22,6 @@ def first_challenge
           puts thing
           puts attribute
           thing.delete("strawberry")
-        
           thing
         end
       end    
