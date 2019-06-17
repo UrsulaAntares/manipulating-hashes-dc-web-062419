@@ -10,6 +10,6 @@ def second_challenge
   all_dem_ingredients = []
 #  groceries.each do |key, values|
   all_dem_ingredients << groceries.values
-  end
+#  end
   all_dem_ingredients.flatten!
 end
